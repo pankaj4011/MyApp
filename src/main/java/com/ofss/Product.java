@@ -7,6 +7,11 @@ public Product() {
 	super();
 	// TODO Auto-generated constructor stub
 }
+
+public Product(String productName, double price) {
+this.productName=productName;
+this.price=price;
+}
 public String getProductName() {
 	return productName;
 }
